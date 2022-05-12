@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <center>
+        <h1>Collage Web App</h1>
+        <h4>As soon as the popup appears, please click Allow. After you've spoken a command</h4>
+        <h3>Say "selfie" for taking your selfies and to make a collage</h3>
+        <button id="start_button" onclick="save()" class="btn btn-primary">Start</button>
+        <h4>Press the Start button</h4>
+        <label>Your webcam : </label>
+        <div id="camera"></div>
+        <label>all selfies will be here</label>
+        <div id="resultShow">
+            <div id="result1" style="width: ;30%">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?fit=crop&format=jpg&crop=4560,2565,x790,y784,safe">
+            </div>
+            <div id="result2" style="width: ;30%">
+                <img src="https://cdn.motor1.com/images/mgl/mrz1e/s1/4x3/coolest-cars-feature.webp">
+            </div>
+            <div id="result3" style="width: ;30%">
+                <img src="https://www.bugatti.com/fileadmin/_processed_/9/5/csm_HEADER_22de7ed3a8.jpg">
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>
